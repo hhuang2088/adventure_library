@@ -1,4 +1,7 @@
 AdventureLibrary::Application.routes.draw do
+  get "sites/new"
+  get "sites/create"
+  get "sites/show"
   resources :adventures do
     resources :pages
   end
